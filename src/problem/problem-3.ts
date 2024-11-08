@@ -8,10 +8,5 @@
     ).length;
   }
 
-  console.log(
-    countWordOccurrences(
-      "I love TYPESCRIPT, I'm trying to be a master in TypeScRIPT.",
-      'typescript'
-    )
-  ); // 2
+  console.log(countWordOccurrences("I love TYPESCRIPT, I'm trying to be a master in TypeScRIPT.", 'typescript')); // 2
 }

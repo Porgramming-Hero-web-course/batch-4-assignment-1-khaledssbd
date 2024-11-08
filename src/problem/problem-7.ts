@@ -4,7 +4,7 @@
   class Car {
     make: string;
     model: string;
-    private year: number;
+    year: number;
 
     constructor(make: string, model: string, year: number) {
       this.make = make;

@@ -7,10 +7,7 @@
     email: string;
   }
 
-  function updateProfile(
-    profile: Profile,
-    updateInfos: Partial<Profile>
-  ): Profile {
+  function updateProfile(profile: Profile, updateInfos: Partial<Profile>): Profile {
     return { ...profile, ...updateInfos };
   }
 

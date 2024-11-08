@@ -8,7 +8,6 @@
         array.push(num);
       }
     });
-    console.log(array);
     return array;
   }
 

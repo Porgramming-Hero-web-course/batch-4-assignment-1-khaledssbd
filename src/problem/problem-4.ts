@@ -21,12 +21,16 @@
     return 0;
   }
 
+
+  
   const circle: Circle = {
     shape: 'circle',
     radius: 6,
   };
   const circleArea = calculateShapeArea(circle);
   console.log(circleArea); // 113.09733552923255
+
+
 
   const rectangle: Rectangle = {
     shape: 'rectangle',

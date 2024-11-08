@@ -7,10 +7,7 @@
     email: string;
   };
 
-  const validateKeys = <T extends Person, S extends keyof T>(
-    obj: T,
-    keys: S[]
-  ): obj is T => {
+  const validateKeys = <T extends Person, S extends keyof T>(obj: T, keys: S[]): obj is T => {
     for (const key of keys) {
       if (!(key in obj)) {
         return false;
