@@ -26,6 +26,4 @@
   };
 
   console.log(validateKeys(person, ['name', 'age'])); // true
-
-
 }
