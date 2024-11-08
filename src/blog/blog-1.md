@@ -24,7 +24,7 @@ Types help us make our code safe and organized, but sometimes, we need to add or
 
 For example, imagine we want a variable to store as either a `string` or a `number`. Here’s how it works:
 
-```TypeScript
+```typescript
 type FullName = string | number;
 let fullName: FullName = "Khaled Siddique";
 fullName = 28;
@@ -38,7 +38,7 @@ An **Intersection Type** combines multiple types into one by using the `&` symbo
 
 For example, let’s combine a `Person` type and an `Employee` type:
 
-```TypeScript
+```typescript
 interface Person {
   name: string;
 }
@@ -67,7 +67,7 @@ Union types make our code more adaptable by combining multiple types. This can b
 
 #### Examples of Union Types in Action
 
-```TypeScript
+```typescript
 function formatInput(input: string | number): string {
   return `Formatted: ${input}`;
 }
@@ -85,7 +85,7 @@ Union types are also useful in functions when we want them to work with differen
 
 ##### Type Guard Example
 
-```TypeScript
+```typescript
   function getLength(input: string | string[]): number {
     if (typeof input === 'string') {
       return input.length;
@@ -107,7 +107,7 @@ Intersection types let us build more complex types by combining existing ones. T
 
 #### Examples of Intersection Types in Action
 
-```TypeScript
+```typescript
 interface Product {
   price: number;
 }
